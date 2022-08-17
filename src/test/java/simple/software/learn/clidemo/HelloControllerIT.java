@@ -12,7 +12,6 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-//@ExtendWith(SpringExtension.class)
 @WebMvcTest(controllers = HelloController.class)
 class HelloControllerIT {
   @Autowired
